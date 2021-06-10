@@ -1,0 +1,15 @@
+Exception handling.
+Exception is an event that occurs at runtime and disrupts the normal flow of our programs.
+Avoiding this behaviour and converting the error messages to user friendly format is
+called exception handling.
+try
+catch
+finally
+throw
+throws
+
+try{
+
+}
+catch (Exception e) {
+}

@@ -1,0 +1,48 @@
+Collections Framework
+1) ArrayList
+2) LinkedList
+3) HashSet
+4) LinkedHashSet
+5) TreeSet
+=====================
+ArrayList:
+is a data structure that stores elements based on index
+    1) can hold duplicate values
+    2) maintains the insertion order
+    3) Dynamic in nature (can adjust the size at runtime)
+    4) Underlying data structure is array
+When to Use:
+    1) when we are not sure about the size
+    2) Fast retrieval based on index
+
+LinkedList:
+    1) can hold duplicate values
+    2) maintains the insertion order
+    3) Dynamic in nature (can adjust the size at runtime)
+    4) Underlying data structure is doubly linked list
+When to use"
+    1) when we are not sure about the size
+    2) When we have to modify the data most of the time we should be using LinkedList
+
+HashSet:
+    1) No Duplicates
+    2) Allows null
+    3) No Order
+When to use:
+    1) When we have to remove the duplicates from the data (we don't care about the order)
+
+LinkedHashSet:
+    1) No Duplicates
+    2) Allows null
+    3) Order is maintained
+When to use:
+    1) When we have to remove the duplicates from the data and we don't want to lose the order
+
+TreeSet:
+    1) No Duplicates
+    2) No null values
+    3) Data is sorted in natural order
+When to use:
+    1) When we have to remove the duplicates from the data (we don't care about the order)
+
+Maps

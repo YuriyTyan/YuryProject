@@ -1,0 +1,35 @@
+Exceptions
+Are unwanted events that occur during the execution of a program and prevents the normal completion of a program
+If we have a program that consists of 1000 lines, if we encounter an exception at
+line number 100 the rest of the lines will be ignored an error message will be thrown and program will terminate abruptly.
+Exception handling:
+1) we convert the system generated error messages to user friendly messages so that a normal person
+can understand the issue
+2) we provide a backup (we are not fixing the original problem)
+Keywords in java to achieve exception handling
+1) try
+2) catch
+3) finally
+4) throws
+5) thrown
+try:
+try with {} brackets is used to wrap problematic code that can cause issues at runtime
+catch:
+catch with () and {} brackets is used to catch the exceptions in the () we place the name
+of the exception class and we create variable of the class
+{} we place backup code
+try{
+FileInputStream fis = new FileInput90;
+}catch (FileNotFoundException e) {
+System.out.println("File Not Found");
+}
+finally:
+Finally block is used to execute the cleanup (code that releases used system resources) code.
+Once we enter the try block this finally block is always executed even if we are facing exceptions in the try block or catch block
+throws:
+keyword is used to tell explicitly what type of exceptions can be thrown from a specific
+method we use the throws keyword in the method header after the parentheses and specify the names of
+the classes of exceptions that can be thrown by that method
+throw:
+is used to throw an exception
+finalize()

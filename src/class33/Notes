@@ -1,0 +1,8 @@
+File Handling:
+FileHandling in Java means reading and writing data to the files.
+Steps:
+1) Find the path of the file
+2) Create the objects of FileInputStream/FileOutputStream
+3) Depending upon the file type we create the objects of Properties/XSSFWorkbook
+4) We read the dfata/write and close our file.
+=====================================================================
